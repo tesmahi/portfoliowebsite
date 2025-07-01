@@ -4,30 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="nav">
+    <nav class="navbar">
       <div class="nav-left">
         <a href="#home">Home</a>
       </div>
       <div class="nav-right">
         <a href="#about">About</a>
         <a href="#notes">Notes</a>
-        <button id="theme-toggle">🌙</button>
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
       </div>
-    </div>
+    </nav>
     <div class="banner">
-      <img src="banner.jpg" alt="Banner"/>
+      <img src="banner.jpg" alt="Banner Image" />
     </div>
   </header>
 
   <main>
     <section id="home" class="intro">
-      <h1>Home</h1>
+      <h1>Welcome</h1>
       <p><strong>Howdy, Your Name here.</strong></p>
-      <p>Welcome to my portfolio. Below you can find some things I’ve been working on recently, and more about me <a href="#about">here</a>.</p>
+      <p>This is my portfolio — check out some recent projects below, or <a href="#about">read more about me</a>.</p>
     </section>
 
     <section class="featured">
@@ -36,26 +36,26 @@
         <div class="project">
           <img src="project1.jpg" alt="Project 1">
           <h3>Project Title 1</h3>
-          <p>Brief description of what this project does and what you learned.</p>
-          <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+          <p>What it does, what you learned, tools used.</p>
+          <a href="https://github.com/yourusername/project1" target="_blank">GitHub →</a>
         </div>
         <div class="project">
           <img src="project2.jpg" alt="Project 2">
           <h3>Project Title 2</h3>
-          <p>Another project summary — keep it short and easy to skim.</p>
-          <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+          <p>Short explanation of the project.</p>
+          <a href="https://github.com/yourusername/project2" target="_blank">GitHub →</a>
         </div>
       </div>
     </section>
 
     <section id="about">
       <h2>About Me</h2>
-      <p>Short bio or description of your interests in engineering, what you work on, or where you study.</p>
+      <p>Short summary about your background and interests.</p>
     </section>
 
     <section id="notes">
       <h2>Notes</h2>
-      <p>Use this space for blog entries, design breakdowns, or anything you want to share in public.</p>
+      <p>You can add blog entries, hardware breakdowns, or tips here.</p>
     </section>
   </main>
 
