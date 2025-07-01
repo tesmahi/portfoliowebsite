@@ -8,43 +8,66 @@
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
-    <p class="tagline">Electrical Engineering Student | Hardware Enthusiast</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="nav">
+      <div class="nav-left">
+        <a href="#home">Home</a>
+      </div>
+      <div class="nav-right">
+        <a href="#about">About</a>
+        <a href="#notes">Notes</a>
+        <button id="theme-toggle">🌙</button>
+      </div>
+    </div>
+    <div class="banner">
+      <img src="banner.jpg" alt="Banner"/>
+    </div>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Write a short intro here about who you are, what you study, what you like to build, etc.</p>
+    <section id="home" class="intro">
+      <h1>Home</h1>
+      <p><strong>Howdy, Your Name here.</strong></p>
+      <p>Welcome to my portfolio. Below you can find some things I’ve been working on recently, and more about me <a href="#about">here</a>.</p>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Project Title</h3>
-        <p>Description of your project, what you learned, and any technologies used.</p>
-        <a href="#">View on GitHub</a>
+    <section class="featured">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project Title 1</h3>
+          <p>Brief description of what this project does and what you learned.</p>
+          <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project Title 2</h3>
+          <p>Another project summary — keep it short and easy to skim.</p>
+          <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        </div>
       </div>
     </section>
 
-    <section id="resume">
-      <h2>Resume</h2>
-      <a href="resume.pdf" class="button" download>Download My Resume</a>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Short bio or description of your interests in engineering, what you work on, or where you study.</p>
     </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <section id="notes">
+      <h2>Notes</h2>
+      <p>Use this space for blog entries, design breakdowns, or anything you want to share in public.</p>
     </section>
   </main>
+
+  <aside class="socials">
+    <a href="https://github.com/yourusername" target="_blank">🐱</a>
+    <a href="https://linkedin.com/in/yourusername" target="_blank">🔗</a>
+  </aside>
 
   <footer>
     <p>© 2025 Your Name. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
